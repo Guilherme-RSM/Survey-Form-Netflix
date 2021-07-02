@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form - Netflix</title>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+    <div class="survey">
+      <h1 id="title">Net<span>Flix</span></h1>
+      <h3 id="description">Thank you for signing up at Netflix. Tell us more your self</h3>
+    </div>
+
+    <form id="survey-form">
+      <div class="form-inner">
+        <div class="space">
+          <label for="name" id="name-label">Name</label><br>
+          <input type="text" placeholder="Enter your name" id="name" required>
+        </div>
+
+        <div class="space">
+          <labe for="number-label" id="age-label">Age</labe><br>
+          <input type="numer" placeholder="Enter your age" id="number" min="18" max="65" required>
+        </div>
+
+        <div class="space">
+          <label id="dropdown-label">Content Type</label><br>
+          <select id="dropdown">
+            <option value="Avengers">Movie</option>
+            <option value="StrangerThings">Series</option>
+          </select><br>
+        </div>
+
+        <form-group>
+          <label id="select-label">Movie Type</label><br>
+      </div>
+
+      <label>
+        <div class="space-se">
+          <input type="checkbox" id="first-check" name="category1" value="comedy">Comedy</div><br>
+        </div>
+
+      </label>
+      <label>
+        <div class="space-se">
+          <input type="checkbox" id="second-check" name="category2" value="comedy">Action</div><br>
+        </div>
+
+        <label>
+          <div class="space-se">
+            <input type="checkbox" id="third-check" name="category3" value="comedy">Romance</div><br>
+          </div>
+
+        </label>
+        </form-group>
+
+        <div class="space">
+          <label id="feed-label">Feedback</label><br>
+        </div>
+        <div class="space-sect">
+          <textarea class="text-area" placeholder="any-coment"></textarea><br>
+        </div>
+        </div>
+    </form>
+    <input type="submit" id="submit">
+  </body>
+
+</html>
